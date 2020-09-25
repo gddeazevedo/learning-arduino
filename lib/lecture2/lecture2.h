@@ -5,5 +5,6 @@
 
 void turnOnLED(unsigned int pin);
 void blinkLED(unsigned int pin, unsigned long millisecond);
+void blinkThreeLeds(int pins[3], int times[3], int milliseconds[3]);
 
 #endif
