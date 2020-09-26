@@ -12,7 +12,7 @@ void blinkLED(unsigned int pin, unsigned long millisecond) {
     delay(millisecond);
 }
 
-void blinkThreeLeds(int pins[3], int times[3], int milliseconds[3]) {
+void blinkThreeLEDs(int pins[3], int times[3], int milliseconds[3]) {
     int total = times[0] + times[1] + times[2];
     
     for (int i = 0; i < total; i++) {
